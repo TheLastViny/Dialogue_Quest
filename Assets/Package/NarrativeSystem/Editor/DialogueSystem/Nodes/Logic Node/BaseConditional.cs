@@ -28,7 +28,7 @@ namespace NarrativeSystem.Dialogue.Editor
         protected void AddOutputCondition(IPortDefinitionContext context)
         {
             context.AddOutputPort<bool>(OUT_PORT_RESULT)
-                .WithDisplayName("True")
+                .WithDisplayName("Result")
                 .Build();
         }
     }

@@ -6,8 +6,7 @@ namespace NarrativeSystem.Dialogue.Editor
     [Serializable]
     internal class BranchingNode : Base
     {
-        public const string IN_PORT_CONDITION = "FirstCondition";
-        public const string IN_PORT_SECOND_CONDITION = "SecondCondition";
+        public const string IN_PORT_CONDITION = "Condition";
         public const string OUT_PORT_TRUE = "True";
         public const string OUT_PORT_FALSE = "False";
 

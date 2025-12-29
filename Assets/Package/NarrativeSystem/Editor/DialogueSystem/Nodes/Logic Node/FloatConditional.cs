@@ -15,8 +15,6 @@ namespace NarrativeSystem.Dialogue.Editor
     {
         protected override void OnDefinePorts(IPortDefinitionContext context)
         {
-            AddInputExecutionPort(context);
-
             DefineCondition<float>(context);
 
             AddOutputCondition(context);
@@ -30,5 +28,6 @@ namespace NarrativeSystem.Dialogue.Editor
                 .WithTooltip("The first condition will be on the left and the second one one the right.")
                 .Build();
         }
+
     }
 }
