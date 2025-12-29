@@ -42,7 +42,6 @@ MonoBehaviour:
         - rid: 1369964523184455776
         - rid: 1369964523184455778
         - rid: 1369964523184455790
-        - rid: 1369964581888720961
         m_GraphWireModels:
         - rid: 1369964520034271306
         - rid: 1369964520034271308
@@ -70,7 +69,7 @@ MonoBehaviour:
           x: 740
           y: -43
           width: 1946
-          height: 523
+          height: 446
         m_GraphElementMetaData:
         - m_Guid:
             m_Value0: 6854995714844565255
@@ -280,14 +279,6 @@ MonoBehaviour:
             Hash: 94ba36036bbeb257ec1a7a6557ab4224
           m_Category: 2
           m_Index: 11
-        - m_Guid:
-            m_Value0: 3973483207788539024
-            m_Value1: 3812059144455207202
-          m_HashGuid:
-            serializedVersion: 2
-            Hash: 902c37d1eca52437223908409827e734
-          m_Category: 0
-          m_Index: 12
         m_EntryPoint:
           rid: 1369964520034271297
         m_Graph:
@@ -1264,40 +1255,3 @@ MonoBehaviour:
           m_PortDirection: 1
           m_PortOrientation: 0
           m_Title: 
-    - rid: 1369964581888720961
-      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
-      data:
-        m_Guid:
-          m_Value0: 3973483207788539024
-          m_Value1: 3812059144455207202
-        m_HashGuid:
-          serializedVersion: 2
-          Hash: 902c37d1eca52437223908409827e734
-        m_Version: 2
-        m_Position: {x: 1637.0697, y: 425.00845}
-        m_Title: 
-        m_Tooltip: 
-        m_NodePreviewModel:
-          rid: -2
-        m_State: 0
-        m_InputConstantsById:
-          m_KeyList: []
-          m_ValueList: []
-        m_InputPortInfos:
-          expandedPortsById:
-            m_KeyList: []
-            m_ValueList: 
-        m_OutputPortInfos:
-          expandedPortsById:
-            m_KeyList: []
-            m_ValueList: 
-        m_Collapsed: 0
-        m_CurrentModeIndex: 0
-        m_ElementColor:
-          m_Color: {r: 0, g: 0, b: 0, a: 0}
-          m_HasUserColor: 0
-        m_Node:
-          rid: 1369964581888720962
-    - rid: 1369964581888720962
-      type: {class: BranchingNode, ns: NarrativeSystem.Dialogue.Editor, asm: NarrativeSystem.Dialogue.Editor}
-      data: 
