@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NarrativeSystem.Enums
+namespace DialogueSystem.Enums
 {
     public enum EConditionalNumber
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     /// <summary>
     /// The base class for the runtime data of all dialogue system conditional nodes.

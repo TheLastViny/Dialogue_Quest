@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     using Variables;
 

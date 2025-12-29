@@ -1,6 +1,6 @@
 using System;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     /// <summary>
     /// Represents a wait node with an number of secods.

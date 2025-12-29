@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NarrativeSystem.Utility
+namespace DialogueSystem.Utility
 {
     /// <summary>
     /// Enums for the conditional nodes.

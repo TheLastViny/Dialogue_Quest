@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace NarrativeSystem.Variables
+namespace DialogueSystem.Variables
 {
     /// <summary>
     ///  Class for the bool in the narrative system that can change.

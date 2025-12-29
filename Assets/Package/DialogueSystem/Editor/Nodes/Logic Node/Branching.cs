@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     [Serializable]
     internal class Branching : Base

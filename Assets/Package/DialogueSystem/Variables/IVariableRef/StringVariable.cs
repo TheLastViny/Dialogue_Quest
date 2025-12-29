@@ -1,6 +1,6 @@
 using System;
 
-namespace NarrativeSystem.Variables
+namespace DialogueSystem.Variables
 {
     /// <summary>
     /// A string variable that is a reference in the system.

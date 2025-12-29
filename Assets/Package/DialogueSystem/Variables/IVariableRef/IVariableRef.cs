@@ -1,6 +1,6 @@
 using System;
 
-namespace NarrativeSystem.Variables
+namespace DialogueSystem.Variables
 {
     /// <summary>
     /// Interface for all the <see cref="VariableRef{T}"/>.

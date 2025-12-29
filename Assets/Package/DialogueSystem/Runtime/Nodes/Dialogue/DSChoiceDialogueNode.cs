@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     using UnityEngine;
     using Variables;

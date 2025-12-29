@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using UnityEngine;
 
-namespace NarrativeSystem.Dictionnaries
+namespace DialogueSystem.Dictionnaries
 {
     // ---------------------------------------------------------------- //
     //? Serialized Dictionary Base

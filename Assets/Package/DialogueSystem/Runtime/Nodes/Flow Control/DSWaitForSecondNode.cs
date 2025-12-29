@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     using Variables;
     /// <summary>

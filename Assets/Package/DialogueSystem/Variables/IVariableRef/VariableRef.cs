@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace NarrativeSystem.Variables
+namespace DialogueSystem.Variables
 {
     /// <summary>
     /// Base class for all the reference value.

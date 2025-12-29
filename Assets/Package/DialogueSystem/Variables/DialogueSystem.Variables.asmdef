@@ -1,6 +1,6 @@
 {
-    "name": "NarrativeSystem.Variables",
-    "rootNamespace": "NarrativeSystem.Variables",
+    "name": "DialogueSystem.Variables",
+    "rootNamespace": "DialogueSystem.Variables",
     "references": [
         "GUID:209a5f4323906644aaaacc797b9d0842"
     ],

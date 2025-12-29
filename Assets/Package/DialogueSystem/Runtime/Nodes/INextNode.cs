@@ -1,4 +1,4 @@
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     /// <summary>
     /// Interface for the node / variables that need a next node.

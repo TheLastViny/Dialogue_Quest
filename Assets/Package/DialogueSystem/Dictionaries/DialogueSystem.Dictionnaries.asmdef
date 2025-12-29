@@ -1,6 +1,6 @@
 {
-    "name": "NarrativeSystem.Enums",
-    "rootNamespace": "NarrativeSystem.Enums",
+    "name": "DialogueSystem.Dictionnaries",
+    "rootNamespace": "DialogueSystem.Dictionnaries",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -11,4 +11,4 @@
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
-} 
+}

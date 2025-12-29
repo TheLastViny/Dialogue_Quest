@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.GraphToolkit.Editor;
 using UnityEditor;
-using UnityEngine.UIElements;
 
-
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     /// <summary>
     /// Represents the graph for the dialogue system.

@@ -1,7 +1,6 @@
-using NarrativeSystem.Variables;
 using System;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     /// <summary>
     /// Represents the base model for all dialogue nodes.

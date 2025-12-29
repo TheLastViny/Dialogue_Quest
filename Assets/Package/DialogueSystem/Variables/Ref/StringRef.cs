@@ -1,6 +1,6 @@
 using System;
 using UnityEngine; 
-namespace NarrativeSystem.Variables
+namespace DialogueSystem.Variables
 {
     /// <summary>
     /// Base class for the string in the narrative system.

@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
-using NarrativeSystem.Utility;
+using DialogueSystem.Utility;
 using UnityEngine;
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     using Variables;
 

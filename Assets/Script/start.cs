@@ -1,4 +1,4 @@
-using NarrativeSystem.Dialogue.Runtime;
+using DialogueSystem.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
 

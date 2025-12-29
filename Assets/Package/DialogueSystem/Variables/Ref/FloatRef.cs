@@ -1,6 +1,6 @@
 using System;
 
-namespace NarrativeSystem.Variables
+namespace DialogueSystem.Variables
 {
     /// <summary>
     /// Base class for the float in the narrative system.

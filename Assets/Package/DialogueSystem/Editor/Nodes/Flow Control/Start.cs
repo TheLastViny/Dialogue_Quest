@@ -1,6 +1,6 @@
 using System;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     /// <summary>
     /// Represents the node at the start of a dialogue.

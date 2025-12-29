@@ -1,7 +1,7 @@
 using System;
 using Unity.GraphToolkit.Editor;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     /// <summary>
     /// Represents a dialogue node that does require a choice after the dialogue.

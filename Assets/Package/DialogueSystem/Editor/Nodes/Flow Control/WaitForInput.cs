@@ -1,6 +1,6 @@
-using System;
+    using System;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     /// <summary>
     /// Represents a node that waits for player input.

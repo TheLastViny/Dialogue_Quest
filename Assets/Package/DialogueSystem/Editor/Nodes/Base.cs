@@ -1,7 +1,7 @@
 using System;
 using Unity.GraphToolkit.Editor;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     /// <summary>
     /// Represente the base model for all nodes in the dialogue system.
@@ -20,8 +20,6 @@ namespace NarrativeSystem.Dialogue.Editor
             {
                 _ID = Guid.NewGuid().ToString();
             }
-           
-           
         }
 
         public string GetID()

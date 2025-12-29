@@ -1,8 +1,8 @@
-using NarrativeSystem.Utility;
+using DialogueSystem.Utility;
 using System;
 using UnityEngine;
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     /// <summary>
     /// The base class for the runtime data of all dialogue system conditional number nodes.

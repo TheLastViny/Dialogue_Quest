@@ -1,9 +1,7 @@
-using NarrativeSystem.Dictionnaries;
-using NarrativeSystem.Variables;
+using DialogueSystem.Dictionnaries;
+using DialogueSystem.Variables;
 using System.Collections;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Reflection;
 using System.Text;
 using UnityEditor;
 using UnityEditor.UIElements;

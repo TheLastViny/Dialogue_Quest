@@ -11,14 +11,14 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a5b167a996e2044e97596151d95c586, type: 3}
   m_Name: GameVariablesDatabase
-  m_EditorClassIdentifier: NarrativeSystem.Variables::NarrativeSystem.Variables.VariableDatabase
+  m_EditorClassIdentifier: DialogueSystem.Variables::DialogueSystem.Variables.VariableDatabase
   Variables:
-    rid: 1369964672354877547
+    rid: 1369964678068043837
   references:
     version: 2
     RefIds:
-    - rid: 1369964672354877547
-      type: {class: VariableRefDictionary, ns: NarrativeSystem.Variables, asm: NarrativeSystem.Variables}
+    - rid: 1369964678068043837
+      type: {class: VariableRefDictionary, ns: DialogueSystem.Variables, asm: DialogueSystem.Variables}
       data:
         keys: []
         values: []

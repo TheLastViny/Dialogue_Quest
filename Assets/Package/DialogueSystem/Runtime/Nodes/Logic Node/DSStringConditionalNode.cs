@@ -1,7 +1,7 @@
-using NarrativeSystem.Utility;
+using DialogueSystem.Utility;
 using System;
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     /// <summary>
     /// The serializable data representing a runtime conditional string node.

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     internal class DontWaitForInput : Base
     {

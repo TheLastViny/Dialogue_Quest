@@ -1,6 +1,6 @@
 using System;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     /// <summary>
     /// Represents a dialogue node that does not require a choice after the dialogue.

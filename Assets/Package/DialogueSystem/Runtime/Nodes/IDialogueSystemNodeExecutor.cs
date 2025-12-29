@@ -1,8 +1,8 @@
-using NarrativeSystem.Variables;
+using DialogueSystem.Variables;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     /// <summary>
     /// The interface for an executor of a dialogue system node.

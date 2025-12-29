@@ -1,5 +1,5 @@
 using UnityEngine;
-using NarrativeSystem.Dictionnaries;
+using DialogueSystem.Dictionnaries;
 
 public class testdic : MonoBehaviour
 {

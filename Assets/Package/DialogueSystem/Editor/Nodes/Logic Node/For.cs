@@ -1,6 +1,6 @@
 using System;
 
-namespace NarrativeSystem.Dialogue.Editor
+namespace DialogueSystem.Editor
 {
     using Enums;
 

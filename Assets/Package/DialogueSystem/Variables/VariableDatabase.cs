@@ -1,9 +1,9 @@
 using UnityEngine;
 
-namespace NarrativeSystem.Variables
+namespace DialogueSystem.Variables
 {
 
-    [CreateAssetMenu(fileName = "VariableDatabase", menuName = "Assets/Create/Narrative System/Variable Database")]
+    [CreateAssetMenu(fileName = "VariableDatabase", menuName = "Assets/Narrative System/Variable Database")]
     public class VariableDatabase : ScriptableObject
     {
         [SerializeReference]

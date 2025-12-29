@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 
 
-namespace NarrativeSystem.Dialogue.Runtime
+namespace DialogueSystem.Runtime
 {
     /// <summary>
     /// An interface that abstracts the input required by the dialogue system.

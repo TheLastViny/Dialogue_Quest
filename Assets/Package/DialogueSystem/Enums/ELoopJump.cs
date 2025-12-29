@@ -1,4 +1,4 @@
-namespace NarrativeSystem.Enums
+namespace DialogueSystem.Enums
 {
     public enum ELoopJump
     {
