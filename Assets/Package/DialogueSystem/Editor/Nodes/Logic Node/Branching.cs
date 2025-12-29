@@ -4,7 +4,7 @@ using UnityEngine;
 namespace NarrativeSystem.Dialogue.Editor
 {
     [Serializable]
-    internal class BranchingNode : Base
+    internal class Branching : Base
     {
         public const string IN_PORT_CONDITION = "Condition";
         public const string OUT_PORT_TRUE = "True";

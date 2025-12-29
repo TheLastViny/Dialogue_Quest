@@ -68,7 +68,7 @@ namespace NarrativeSystem.Dialogue.Editor
                 case 1:
                     
                     Start startNode = startNodes[0];
-                    IPort outputPort = startNode.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME);
+                    IPort outputPort = startNode.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME);
 
                     if (!outputPort.isConnected)
                     {
@@ -105,7 +105,7 @@ namespace NarrativeSystem.Dialogue.Editor
                 case >= 1:
                     foreach (End node in endNodes)
                     {
-                        IPort inputPort = node.GetInputPortByName(Base.EXECUTION_IN_PORT_DEFAULT_NAME);
+                        IPort inputPort = node.GetInputPortByName(Base.IN_PORT_DEFAULT_NAME);
 
                         if (!inputPort.isConnected) 
                         { 
@@ -122,14 +122,14 @@ namespace NarrativeSystem.Dialogue.Editor
 
             foreach (WaitForInput node in inputNodes)
             {
-                IPort outputPort = node.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME);
+                IPort outputPort = node.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME);
 
                 if (!outputPort.isConnected)
                 {
                     graphLogger.LogError($"{node.GetType().Name} output port is not connected.", node);
                 }
 
-                IPort inputPort = node.GetInputPortByName(Base.EXECUTION_IN_PORT_DEFAULT_NAME);
+                IPort inputPort = node.GetInputPortByName(Base.IN_PORT_DEFAULT_NAME);
 
                 if (!inputPort.isConnected)
                 {
@@ -153,14 +153,14 @@ namespace NarrativeSystem.Dialogue.Editor
 
             foreach (WaitForSecond node in secondNodes)
             {
-                IPort outputPort = node.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME);
+                IPort outputPort = node.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME);
 
                 if (!outputPort.isConnected)
                 {
                     graphLogger.LogError($"{node.GetType().Name} output port is not connected.", node);
                 }
 
-                IPort inputPort = node.GetInputPortByName(Base.EXECUTION_IN_PORT_DEFAULT_NAME);
+                IPort inputPort = node.GetInputPortByName(Base.IN_PORT_DEFAULT_NAME);
 
                 if (!inputPort.isConnected)
                 {
@@ -283,7 +283,7 @@ namespace NarrativeSystem.Dialogue.Editor
             foreach (NoChoiceDialogue node in noChoiceNodes)
             {
 
-                IPort outputPort = node.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME);
+                IPort outputPort = node.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME);
 
                 if (!outputPort.isConnected)
                 {
@@ -298,7 +298,7 @@ namespace NarrativeSystem.Dialogue.Editor
                     graphLogger.LogWarning("Only the line with the number 1 will be used the rest will be ignore for the output port.", node);
                 }
 
-                IPort inputPort = node.GetInputPortByName(Base.EXECUTION_IN_PORT_DEFAULT_NAME);
+                IPort inputPort = node.GetInputPortByName(Base.IN_PORT_DEFAULT_NAME);
 
                 if (!inputPort.isConnected)
                 {
@@ -333,7 +333,7 @@ namespace NarrativeSystem.Dialogue.Editor
 
             foreach (ChoiceDialogue node in noChoiceNodes)
             {
-                IPort inputPort = node.GetInputPortByName(Base.EXECUTION_IN_PORT_DEFAULT_NAME);
+                IPort inputPort = node.GetInputPortByName(Base.IN_PORT_DEFAULT_NAME);
 
                 if (!inputPort.isConnected)
                 {

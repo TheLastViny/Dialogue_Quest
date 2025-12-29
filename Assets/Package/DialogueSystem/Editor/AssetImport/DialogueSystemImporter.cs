@@ -21,7 +21,7 @@ namespace NarrativeSystem.Dialogue.Editor
     [ScriptedImporter(1, DialogueGraph.ASSETEXTENSION)]
     internal class DialogueSystemImporter : ScriptedImporter
     {
-        private const string DATABASE_PATH = "Assets/Package/NarrativeSystem/Editor/DialogueSystem/AssetImport/VariableDatabase.asset";
+        private const string DATABASE_PATH = "Assets/Package/DialogueSystem/BlackboardVariableDatabase.asset";
 
         /// <summary>
         /// Unity calls this method when the editor imports the asset.
@@ -149,7 +149,7 @@ namespace NarrativeSystem.Dialogue.Editor
                     return ConvertToRuntimeEndNode(endNode);
 
                 case NoChoiceDialogue noChoiceDialogue:
-                    Base nextNode = noChoiceDialogue.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
+                    Base nextNode = noChoiceDialogue.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
                     if(nextNode is WaitForInput || nextNode is WaitForSecond)
                     {
                         return ConvertToRuntimeNoChoiceDialogueNode(noChoiceDialogue);
@@ -183,7 +183,7 @@ namespace NarrativeSystem.Dialogue.Editor
         /// <returns>A runtime start node.</returns>
         private DSStartNode ConvertToRuntimeStartNode(Start startNode)
         {
-            Base nextNode = startNode.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
+            Base nextNode = startNode.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
 
             DSStartNode runtimeStartNode = new() 
             { 
@@ -216,7 +216,7 @@ namespace NarrativeSystem.Dialogue.Editor
         /// <returns>A runtime wait for input node.</returns>
         private DSWaitForInputNode ConvertToRuntimeWaitForInputNode(WaitForInput waitForInputNode)
         {
-            Base nextNode = waitForInputNode.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
+            Base nextNode = waitForInputNode.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
 
             DSWaitForInputNode runtimeWaitForInputNode = new()
             {
@@ -236,7 +236,7 @@ namespace NarrativeSystem.Dialogue.Editor
         /// <returns>A runtime wait for input node.</returns>
         private DSWaitForInputNode ConvertToRuntimeWaitForInputNode(WaitForInput waitForInputNode, Base node)
         {
-            Base nextNode = node.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
+            Base nextNode = node.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
 
             DSWaitForInputNode runtimeWaitForInputNode = new()
             {
@@ -249,7 +249,7 @@ namespace NarrativeSystem.Dialogue.Editor
 
         private DSWaitForSecondNode ConvertToRuntimeWaitForSecondNode(WaitForSecond waitForSecondNode)
         {
-            Base nextNode = waitForSecondNode.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
+            Base nextNode = waitForSecondNode.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
 
             FloatRef secondRef = GetFloatRef(waitForSecondNode.GetInputPortByName(WaitForSecond.IN_PORT_NUMBER_SECONDS));
 
@@ -279,7 +279,7 @@ namespace NarrativeSystem.Dialogue.Editor
         /// <returns>A runtime no choice dialogue node.</returns>
         private DSNoChoiceDialogueNode ConvertToRuntimeNoChoiceDialogueNode(NoChoiceDialogue noChoiceDialogueNode)
         {
-            Base nextNode = noChoiceDialogueNode.GetOutputPortByName(Base.EXECUTION_OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
+            Base nextNode = noChoiceDialogueNode.GetOutputPortByName(Base.OUT_PORT_DEFAULT_NAME).firstConnectedPort.GetNode() as Base;
 
             StringRef dialogueRef = GetStringRef(noChoiceDialogueNode.GetInputPortByName(BaseDialogue.IN_PORT_DIALOGUE_NAME));
             StringRef chracterRef = GetStringRef(noChoiceDialogueNode.GetInputPortByName(BaseDialogue.IN_PORT_CHARACTER_NAME));

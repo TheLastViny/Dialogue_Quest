@@ -9,8 +9,8 @@ namespace NarrativeSystem.Dialogue.Editor
     [Serializable]
     internal abstract class Base : Node
     {
-        public const string EXECUTION_IN_PORT_DEFAULT_NAME = "InExecutionPort";
-        public const string EXECUTION_OUT_PORT_DEFAULT_NAME = "OutExecutionPort";
+        public const string IN_PORT_DEFAULT_NAME = "InExecutionPort";
+        public const string OUT_PORT_DEFAULT_NAME = "OutExecutionPort";
         private string _ID;
 
         public Base()
@@ -46,7 +46,7 @@ namespace NarrativeSystem.Dialogue.Editor
         /// <param name="context">The context used to define ports for this node</param>
         protected void AddInputExecutionPort(IPortDefinitionContext context) 
         { 
-            context.AddInputPort(EXECUTION_IN_PORT_DEFAULT_NAME)
+            context.AddInputPort(IN_PORT_DEFAULT_NAME)
                 .WithDisplayName(string.Empty)
                 .WithConnectorUI(PortConnectorUI.Arrowhead)
                 .Build();
@@ -58,7 +58,7 @@ namespace NarrativeSystem.Dialogue.Editor
         /// <param name="context">The context used to define ports for this node</param>
         protected void AddOutputExecutionPort(IPortDefinitionContext context)
         {
-            context.AddOutputPort(EXECUTION_OUT_PORT_DEFAULT_NAME)
+            context.AddOutputPort(OUT_PORT_DEFAULT_NAME)
                 .WithDisplayName(string.Empty)
                 .WithConnectorUI(PortConnectorUI.Arrowhead)
                 .Build();
