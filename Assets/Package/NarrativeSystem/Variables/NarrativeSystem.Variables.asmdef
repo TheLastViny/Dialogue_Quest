@@ -1,0 +1,16 @@
+{
+    "name": "NarrativeSystem.Variables",
+    "rootNamespace": "NarrativeSystem.Variables",
+    "references": [
+        "GUID:209a5f4323906644aaaacc797b9d0842"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

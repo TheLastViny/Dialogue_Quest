@@ -1,0 +1,24 @@
+{
+    "name": "NarrativeSystem.Dialogue.Editor",
+    "rootNamespace": "NarrativeSystem.Dialogue.Editor",
+    "references": [
+        "GUID:d1e08c06f8f9473888c892637c83c913",
+        "GUID:70ef9a24f4cfc4aec911c1414e3f90ad",
+        "GUID:8c9ef94c4e33aae44bff179e64581112",
+        "GUID:9c06bb9188a1ec14eb5f799f116e2ebd",
+        "GUID:b1de4e5dea3b78646a5d78c511fda4ea",
+        "GUID:209a5f4323906644aaaacc797b9d0842",
+        "GUID:64a17e005b5a16f458a6b00659eaad9e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

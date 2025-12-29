@@ -1,0 +1,20 @@
+{
+    "name": "NarrativeSystem.Dialogue.Runtime",
+    "rootNamespace": "NarrativeSystem.Dialogue.Runtime",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:dca6387d82b6a7c47ab6b7940329620f",
+        "GUID:209a5f4323906644aaaacc797b9d0842",
+        "GUID:b1de4e5dea3b78646a5d78c511fda4ea"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
