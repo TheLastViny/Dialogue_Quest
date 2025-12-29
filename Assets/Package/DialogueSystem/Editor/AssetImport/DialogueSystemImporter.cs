@@ -21,7 +21,7 @@ namespace NarrativeSystem.Dialogue.Editor
     [ScriptedImporter(1, DialogueGraph.ASSETEXTENSION)]
     internal class DialogueSystemImporter : ScriptedImporter
     {
-        private const string DATABASE_PATH = "Assets/Package/DialogueSystem/BlackboardVariableDatabase.asset";
+        private const string DATABASE_PATH = "Assets/Package/DialogueSystem/BlackboardVariablesDatabase.asset";
 
         /// <summary>
         /// Unity calls this method when the editor imports the asset.

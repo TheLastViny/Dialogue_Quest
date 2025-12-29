@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a5b167a996e2044e97596151d95c586, type: 3}
-  m_Name: BlackboardVariableDatabase
+  m_Name: BlackboardVariablesDatabase
   m_EditorClassIdentifier: NarrativeSystem.Variables::NarrativeSystem.Variables.VariableDatabase
   Variables:
     rid: 1000
@@ -20,5 +20,21 @@ MonoBehaviour:
     - rid: 1000
       type: {class: VariableRefDictionary, ns: NarrativeSystem.Variables, asm: NarrativeSystem.Variables}
       data:
-        keys: []
-        values: []
+        keys:
+        - Dev Name
+        - Player Name
+        values:
+        - rid: 1369964672354877537
+        - rid: 1369964672354877538
+    - rid: 1369964672354877537
+      type: {class: StringVariable, ns: NarrativeSystem.Variables, asm: NarrativeSystem.Variables}
+      data:
+        _name: Dev Name
+        _initialValue: Dev
+        _currentValue: Dev
+    - rid: 1369964672354877538
+      type: {class: StringVariable, ns: NarrativeSystem.Variables, asm: NarrativeSystem.Variables}
+      data:
+        _name: Player Name
+        _initialValue: Player Name
+        _currentValue: Player Name
