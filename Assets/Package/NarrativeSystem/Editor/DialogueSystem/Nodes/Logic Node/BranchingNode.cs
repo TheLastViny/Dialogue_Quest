@@ -26,6 +26,7 @@ namespace NarrativeSystem.Dialogue.Editor
                 .WithDisplayName("False")
                 .Build();
         }
+
     }
 }
 

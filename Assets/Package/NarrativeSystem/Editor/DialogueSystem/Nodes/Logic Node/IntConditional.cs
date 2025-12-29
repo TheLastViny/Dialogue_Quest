@@ -28,5 +28,6 @@ namespace NarrativeSystem.Dialogue.Editor
                 .WithTooltip("The first condition will be on the left and the second one one the right.")
                 .Build();
         }
+
     }
 }
